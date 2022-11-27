@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LADM_Practica1_BaseDeDatosMixta</string>
+    <string-array name="CARRERAS">
+        <item>ISC</item>
+        <item>BQ</item>
+        <item>Admin</item>
+        <item>Gestión</item>
+        <item>Mecatrónica</item>
+    </string-array>
+
+</resources>

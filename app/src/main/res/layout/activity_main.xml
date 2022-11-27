@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA07A"
+    tools:context=".MainActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageITTEPIC"
+            app:srcCompat="@drawable/ittepic"
+            android:layout_alignParentRight="true"
+
+            />
+
+        <EditText
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="40dp"
+            android:hint="Nombre"
+            android:id="@+id/inputNombre"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/inputprocedencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/inputNombre"
+            android:layout_marginLeft="40dp"
+            android:hint="Escuela de procedencia"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/inputcelular"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inputprocedencia"
+            android:layout_marginLeft="40dp"
+            android:hint="Celular"
+            android:textStyle="bold" />
+        //cambiarlo por un comboBox
+        <EditText
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:id="@+id/inputEmail"
+            android:layout_below="@+id/inputcelular"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            />
+
+
+        <Spinner
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputcarrera1"
+            android:layout_below="@+id/inputEmail"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="#aa66cc"
+            android:ellipsize="marquee"
+            android:entries="@array/CARRERAS"
+            />
+
+        <Spinner
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputCarrera2"
+            android:layout_below="@+id/inputcarrera1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="#aa66cc"
+            android:ellipsize="marquee"
+            android:layout_centerVertical="true"
+            android:entries="@array/CARRERAS"
+            android:hint="Carrera 2"
+            />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/inputCarrera2"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:text="REGISTRAR"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/btnRegistrar"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/checkValidarNube"
+            android:layout_marginTop="8dp"
+            android:text="Enviar a la Nube"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/checkValidarNube"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="40dp"
+            android:text="Alumnos: Juan Mata with Jazmin Ochoa"
+            />
+    </RelativeLayout>
+</ScrollView>
