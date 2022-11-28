@@ -1,11 +1,36 @@
 <resources>
     <string name="app_name">LADM_Practica1_BaseDeDatosMixta</string>
-    <string-array name="CARRERAS">
+    <string name="alumnos">Alumnos: Juan Mata with Jazmin Ochoa</string>
+    <string-array name="CARRERAS1">
+        <item>Opcion 1</item>
+        <item>ARQUITECTURA</item>
+        <item>IBQ</item>
+        <item>IC</item>
+        <item>IE</item>
+        <item>IGE</item>
+        <item>II</item>
+        <item>IM</item>
+        <item>IQ</item>
         <item>ISC</item>
-        <item>BQ</item>
-        <item>Admin</item>
-        <item>Gestión</item>
-        <item>Mecatrónica</item>
+        <item>ITIC</item>
+        <item>LA</item>
     </string-array>
-
+    <string-array name="CARRERAS2">
+        <item>Opcion 2</item>
+        <item>ARQUITECTURA</item>
+        <item>IBQ</item>
+        <item>IC</item>
+        <item>IE</item>
+        <item>IGE</item>
+        <item>II</item>
+        <item>IM</item>
+        <item>IQ</item>
+        <item>ISC</item>
+        <item>ITIC</item>
+        <item>LA</item>
+    </string-array>
+    <string-array name="opciones">
+        <item>Local</item>
+        <item>Nube</item>
+    </string-array>
 </resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA07A"
+    tools:context=".FormularioPostulante">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="Imagen del ITTEPIC"
+        app:srcCompat="@drawable/ittepic" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:autofillHints="name"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/procedencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombre"
+        android:layout_marginStart="40dp"
+        android:autofillHints="name"
+        android:hint="Escuela de procedencia"
+        android:inputType="text"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/celular"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/procedencia"
+        android:layout_marginStart="40dp"
+        android:autofillHints="phone"
+        android:hint="Celular"
+        android:inputType="phone"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/celular"
+        android:layout_marginStart="40dp"
+        android:autofillHints="emailAddress"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:id="@+id/carrera1"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputEmail"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:ellipsize="marquee"
+        android:entries="@array/CARRERAS1"
+        android:textColor="#aa66cc"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/carrera2"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/carrera1"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:ellipsize="marquee"
+        android:entries="@array/CARRERAS2"
+        android:hint="Carrera 2"
+        android:textColor="#aa66cc"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/carrera2"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:text="REGISTRAR"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancelar"
+        android:layout_below="@id/carrera2"
+        android:layout_toEndOf="@+id/btnRegistrar"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:text="CANCELAR" />
+
+    <CheckBox
+        android:id="@+id/checkValidarNube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegistrar"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="8dp"
+        android:text="Enviar a la Nube"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkValidarNube"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/alumnos" />
+</RelativeLayout>

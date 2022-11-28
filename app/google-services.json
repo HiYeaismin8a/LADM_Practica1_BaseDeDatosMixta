@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "808900967461",
+    "project_id": "ladm-practica1-bdmixta",
+    "storage_bucket": "ladm-practica1-bdmixta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808900967461:android:bc67757f8df395b80cd3cc",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.ladm_practica1_basededatosmixta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808900967461-k06f4j698fp6d113ukonq90ogdqonb7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdQR6LQK5xICoCJ-UTUEUTvegBp4BOQss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808900967461-k06f4j698fp6d113ukonq90ogdqonb7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/TEC/SEMESTRE_8/LADM/U3/LADM_Practica1_BaseDeDatosMixta/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/TEC/SEMESTRE_8/LADM/U3/LADM_Practica1_BaseDeDatosMixta/app/src/main/res/layout/activity_main2.xml" value="0.36666666666666664" />
+        <entry key="..\:/TEC/SEMESTRE_8/LADM/U3/LADM_Practica1_BaseDeDatosMixta/app/src/main/res/layout/formulario_postulante.xml" value="0.18802083333333333" />
+        <entry key="..\:/TEC/SEMESTRE_8/LADM/U3/LADM_Practica1_BaseDeDatosMixta/app/src/main/res/layout/lista_postulantes.xml" value="0.33" />
         <entry key="..\:/Users/H8A/Documents/LADM_Practica1_BaseDeDatosMixta/app/src/main/res/layout/activity_main.xml" value="0.3145833333333333" />
         <entry key="..\:/Users/H8A/Documents/LADM_Practica1_BaseDeDatosMixta/app/src/main/res/layout/activity_main2.xml" value="0.3145833333333333" />
       </map>

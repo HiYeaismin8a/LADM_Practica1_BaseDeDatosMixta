@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA07A"
+    tools:context=".FormularioPostulante">
+
+
+    <ImageView
+        android:id="@+id/imageITTEPIC"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:contentDescription="Imagen del ITTEPIC"
+        app:srcCompat="@drawable/ittepic" />
+
+    <TextView
+        android:id="@+id/tituloMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="18dp"
+        android:text="Laboratorio de App. Móviles" />
+
+    <TextView
+        android:id="@+id/tituloUno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tituloMateria"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Alumnos: Juan Mata S." />
+
+    <TextView
+        android:id="@+id/tituloTres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tituloUno"
+        android:layout_marginLeft="70dp"
+        android:text="Jazmin Ochoa" />
+
+    <Button
+        android:id="@+id/btnSincronizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tituloTres"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Sincronizar Datos"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnNuevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSincronizar"
+        android:layout_marginStart="10dp"
+        android:text="Nuevo Postulante" />
+
+    <Spinner
+        android:id="@+id/opcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSincronizar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_toEndOf="@+id/btnNuevo"
+        android:entries="@array/opciones" />
+
+    <ListView
+        android:id="@+id/postulantes"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnNuevo"
+        android:layout_marginTop="50dp" />
+
+</RelativeLayout>
+
+
